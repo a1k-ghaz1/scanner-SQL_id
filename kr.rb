@@ -35,10 +35,19 @@ if ARGV.size .eql?(2) == false
 	puts "\nusage [server ip] [variable] ex: ruby 1337kro.rb 127.0.0.1 id"
 else 
 	begin 
-		puts "                               "
-		puts " SQL_id>? by ~Kro0oz          "
-		puts " twitter: 1337Kro             \n"
-		     "################################"
+		puts " 
+
+     ██████   ██ ██████  ██████  ███████ ██   ██ ██████   ██████  
+    ██    ██ ███      ██      ██      ██ ██  ██  ██   ██ ██    ██ 
+    ██ ██ ██  ██  █████   █████      ██  █████   ██████  ██    ██ 
+    ██ ██ ██  ██      ██      ██    ██   ██  ██  ██   ██ ██    ██ 
+     █ ████   ██ ██████  ██████     ██   ██   ██ ██   ██  ██████  
+                                                                  
+             Github & Kro0oz | Twitter &1337kro                                                 
+		scanner SQL ID - code by kz
+		
+		  \n"
+		    
 		web_count(ARGV[0],ARGV[1])
 		check_sql()
 	rescue
